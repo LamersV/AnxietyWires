@@ -9,6 +9,8 @@
     --bgcolor3: #291C33;
     --textcolor: #fae8c8;
     --borderColor: #F5C98E;
+    --itchio: #F35B56;
+    --itchio2: #f97873;
 }
 
 body{
@@ -129,8 +131,8 @@ body{
   font-family: 'Caveat', cursive;
   font-weight: 900;
   font-size: 30px;
-  background-color: var(--textcolor);
-  color: var(--bgcolor2);
+  background-color: var(--itchio);
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -138,7 +140,7 @@ body{
 }
 
 .call-to-button:hover{
-  background-color: #f9d7ac;
+  background-color: var(--itchio2);
   transition: 1s;
 }
 
@@ -211,6 +213,14 @@ body{
   font-family: 'Caveat', cursive;
   font-size: 25px;
   color: var(--textcolor);
+}
+
+.features{
+  margin-top: 20px;
+}
+
+.features p{
+  margin: auto!important;
 }
 
 footer{
